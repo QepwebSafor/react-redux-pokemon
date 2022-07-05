@@ -1,5 +1,5 @@
 {
-  "name": "react-redux-course",
+  "name": "react-redux-pokemon",
   "version": "0.1.0",
   "private": true,
   "author": {
@@ -7,12 +7,18 @@
     "email": "mariangelica.useche@gmail.com"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.27.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^8.0.1",
     "react-scripts": "4.0.3",
+    "redux": "^4.2.0",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.4.1",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.4",
     "web-vitals": "^1.0.1"
@@ -21,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "homepage": "https://qepwebsafor.github.io/react-redux-pokemon/",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
