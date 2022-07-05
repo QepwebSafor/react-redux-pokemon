@@ -1,7 +1,7 @@
 # Pokedux ![Status badge](https://img.shields.io/badge/status-in%20progress-yellow)
 
 ✨ Encuentra tus pokemones favoritos y descubre todas sus habilidades para convertirte en el mejor Maestro Pokemón usando REDUX.
-
+* Página web:  https://qepwebsafor.github.io/react-redux-pokemon/
 ## 🚀 Instalación
 
 1. Clona este proyecto.
