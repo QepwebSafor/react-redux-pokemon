@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "Mariangélica Useche",
-    "email": "mariangelica.useche@gmail.com"
+    "name": "Quica Espi Puig",
+    "email": "qepsaforweb@gmail.com"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
